@@ -1,0 +1,44 @@
+body {
+    background-color: yellow;
+}
+
+.contenedor {
+    position: relative;
+    width: 1100px;
+    margin: 100px auto;
+    border: 300px solid rgb(255, 255, 255);
+    background-color: white;
+    display: flex;
+    height: 100px;
+    width: 400px;  
+}
+
+.contenedor img {
+    position: relative; 
+    top: -170%; 
+    left: 46%; 
+}
+
+.barra {
+    position: relative;
+    top: -60%;
+    left: 59%;
+}
+
+.barracontraseña {
+    position: relative;
+    top: 125%;
+    left: -27px;
+}
+
+.iniciar {
+    position: relative;
+    top: 124%;
+    left: 108px;
+}
+
+.logo2 {
+    margin-top: -100px; 
+    margin-left: -550px;
+    
+}
