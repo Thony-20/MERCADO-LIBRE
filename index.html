@@ -1,33 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/icono2.jpg" type="image/png">
     <title>Mercado Libre</title>
+
 </head>
 <body>
     <div class="contenedor">
-        <img src="imagenes/mercadolibrelogo.png" alt="Logo Mercado Libre">
-    </div>
-    
-    <div class="barra">
-        <form>
-            <label for="Correo">Correo:</label>
-            <input type="email" id="email" name="email" required> 
-        </form>
-        <div class="barracontraseña">
-            <form>
-                <label for="Contraseña">Contraseña:</label>
-                <input type="Contraseña" id="Contraseña" name="Contraseña" required>
-            </form>
-            <div class="Iniciar">
-                <button type="submit">INICIAR SESIÓN</button>
-            </div>       
+        <div class="cuadro">
+            <img src="imagenes/mercadolibrelogo.png" alt="Logo de Mercado Libre" class="bounce-in-top">
+            
+            <input type="text" placeholder="Correo" class="barra-correo">
+            <input type="text" placeholder="Contraseña" class="barra-contraseña">
+
+            <button class="btn-iniciar-sesion">Iniciar sesión</button>
+            
+            <p class="Olvidaste-Usuario-Contraseña">
+                ¿Olvidaste tu <a href="https://www.mercadolibre.com/jms/mlv/lgz/msl/login/H4sIAAAAAAAEAzWNTQ6CQAyF7zJrhD1LLzIpwwMbO8ykU1BjvLvFxFXz_r6-g5SVt2ivijAGPKtwYgtdqEK2FM2RZw-yuNXY8JfHWSGlDIO2ML5P0Ir5Ch-dqIWkwUu02y0uUh7u_X65xy3i6buNJD4wHYwz_S_W4uJmVts4DMLNaC59hia_wpOiTyX3BwZF2iuU9JL5knZsRuHTOadZNKV0D6Ppjs8XGYPz5OUAAAA/user"> Contraseña / Usuario</a>?
+            </p>
+
+            <p class="Crear-Cuenta">
+                <a href="https://www.mercadolibre.com.ve/hub/registration/landing?redirect_url=https%3A%2F%2Flistado.mercadolibre.com.ve%2Fcrear-cuenta-nueva_ITEM*CONDITION_2230284#nav-header">Crear Cuenta</a>
+            </p>
+
+           
         </div>
-        <div class="logo2">
-            <img src="imagenes/mercadolibre2.jpeg" alt="Imagen simulando desbloquear una contraseña">
-        </div>
+        <img src="imagenes/mercadolibre2.jpeg" class="imagen">
+            
     </div>
-    
 </body>
 </html>
